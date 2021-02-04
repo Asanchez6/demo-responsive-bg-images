@@ -1,1 +1,15 @@
 /* styles go here */
+
+/* Start with the smallest size first - serve a scaled down version of the background img */
+header{
+    background-color: #eff2f7;
+    background: url(../img/original-bg.jpg)center center/ cover no-repeat;
+    padding: 24px;
+    height: 400px;
+/* need to convert to smaller img  */
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+@media only screen and (min-width:950px)
